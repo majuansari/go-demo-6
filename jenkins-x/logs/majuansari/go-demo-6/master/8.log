@@ -1,50 +1,50 @@
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-xvdq2[0m
-{"level":"info","ts":1587574568.8935294,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
-{"level":"info","ts":1587574568.8969731,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-vf794[0m
+{"level":"info","ts":1587577924.1041324,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
+{"level":"info","ts":1587577924.104476,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-r4xs6[0m
-{"level":"info","ts":1587574570.2874556,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1587574570.3274295,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-jnzbw[0m
+{"level":"info","ts":1587577925.478319,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1587577925.4828928,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-majuansari-go-demo-6-master-rel-xqrsl-sqtwc[0m
-{"level":"info","ts":1587574576.5777924,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
-{"level":"info","ts":1587574577.179189,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/**********/go-demo-6.git @ v2.0.26 in path /workspace/source"}
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-majuansari-go-demo-6-master-ktzf2-sl9lr[0m
+{"level":"info","ts":1587577932.5241027,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
+{"level":"info","ts":1587577932.9140227,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/**********/go-demo-6.git @ v2.0.31 in path /workspace/source"}
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
 Using SHAs from PULL_REFS=master:8263e482db4187496545efb28787006de74cfa03
 WARNING: no SHAs to merge, falling back to initial cloned commit
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
 Generated Git credentials file /workspace/xdg_config/git/credentials
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-make-build[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-make-build[0m
+go: finding github.com/stretchr/ob** v0.1.1
+go: finding github.com/pmezard/go-difflib v1.0.0
+go: finding github.com/stretchr/testify v1.2.2
+go: finding github.com/golang/protobuf v1.2.0
+go: finding github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 go: finding github.com/matttproud/golang_protobuf_extensions v1.0.1
+go: finding github.com/prometheus/client_golang v0.9.2
 go: finding github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 go: finding github.com/davecgh/go-spew v1.1.1
-go: finding github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
-go: finding github.com/stretchr/testify v1.2.2
-go: finding github.com/stretchr/ob** v0.1.1
-go: finding github.com/prometheus/client_golang v0.9.2
-go: finding github.com/golang/protobuf v1.2.0
-go: finding github.com/pmezard/go-difflib v1.0.0
 go: finding gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
 go: finding github.com/prometheus/common v0.0.0-20181126121408-4724e9255275
 go: finding github.com/prometheus/procfs v0.0.0-20181204211112-1dc9a6cbc91a
 go: finding golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 go: finding golang.org/x/net v0.0.0-20181201002055-351d144fa1fc
-go: downloading github.com/prometheus/client_golang v0.9.2
 go: downloading gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
+go: downloading github.com/prometheus/client_golang v0.9.2
 go: extracting github.com/prometheus/client_golang v0.9.2
+go: downloading github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 go: downloading github.com/prometheus/common v0.0.0-20181126121408-4724e9255275
+go: downloading github.com/golang/protobuf v1.2.0
 go: downloading github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 go: downloading github.com/prometheus/procfs v0.0.0-20181204211112-1dc9a6cbc91a
-go: downloading github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
-go: downloading github.com/golang/protobuf v1.2.0
-go: extracting github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 go: extracting gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
+go: extracting github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 go: extracting github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 go: extracting github.com/prometheus/common v0.0.0-20181126121408-4724e9255275
 go: extracting github.com/prometheus/procfs v0.0.0-20181204211112-1dc9a6cbc91a
@@ -53,49 +53,42 @@ go: extracting github.com/matttproud/golang_protobuf_extensions v1.0.1
 go: extracting github.com/golang/protobuf v1.2.0
 CGO_ENABLED=0 GO15VENDOREXPERIMENT=1 go build -ldflags '' -o bin/go-demo-6 main.go
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
-[36mINFO[0m[0000] Resolved base name scratch to scratch        
-[36mINFO[0m[0000] Using dockerignore file: /workspace/source/.dockerignore 
-[36mINFO[0m[0000] Resolved base name scratch to scratch        
-[36mINFO[0m[0000] Built cross stage deps: map[]                
-[36mINFO[0m[0000] No base image, nothing to extract            
-[36mINFO[0m[0000] cmd: EXPOSE                                  
-[36mINFO[0m[0000] Adding exposed port: 8080/tcp                
-[36mINFO[0m[0000] Checking for cached layer majutest.azurecr.io/majutest/cache:c791d7f3034f77cc32062557087696bd8159581b0f93552196a1d44b170cc4eb... 
-[36mINFO[0m[0002] Using caching version of cmd: COPY ./bin/ /  
-[36mINFO[0m[0002] Skipping unpacking as no commands require it. 
-[36mINFO[0m[0002] Taking snapshot of full filesystem...        
-[36mINFO[0m[0002] Resolving paths                              
-[36mINFO[0m[0002] EXPOSE 8080                                  
-[36mINFO[0m[0002] cmd: EXPOSE                                  
-[36mINFO[0m[0002] Adding exposed port: 8080/tcp                
-[36mINFO[0m[0002] No files changed in this command, skipping snapshotting. 
-[36mINFO[0m[0002] ENTRYPOINT ["/go-demo-6"]                    
-[36mINFO[0m[0002] No files changed in this command, skipping snapshotting. 
-[36mINFO[0m[0002] COPY ./bin/ /                                
-[36mINFO[0m[0002] Found cached layer, extracting to filesystem 
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+[36mINFO[0m[0001] Resolved base name scratch to scratch        
+[36mINFO[0m[0001] Using dockerignore file: /workspace/source/.dockerignore 
+[36mINFO[0m[0001] Resolved base name scratch to scratch        
+[36mINFO[0m[0001] Built cross stage deps: map[]                
+[36mINFO[0m[0001] No base image, nothing to extract            
+[36mINFO[0m[0001] cmd: EXPOSE                                  
+[36mINFO[0m[0001] Adding exposed port: 8080/tcp                
+[36mINFO[0m[0001] Checking for cached layer majutest.azurecr.io/majutest/cache:c791d7f3034f77cc32062557087696bd8159581b0f93552196a1d44b170cc4eb... 
+[36mINFO[0m[0001] Using caching version of cmd: COPY ./bin/ /  
+[36mINFO[0m[0001] Skipping unpacking as no commands require it. 
+[36mINFO[0m[0001] Taking snapshot of full filesystem...        
+[36mINFO[0m[0001] Resolving paths                              
+[36mINFO[0m[0001] EXPOSE 8080                                  
+[36mINFO[0m[0001] cmd: EXPOSE                                  
+[36mINFO[0m[0001] Adding exposed port: 8080/tcp                
+[36mINFO[0m[0001] No files changed in this command, skipping snapshotting. 
+[36mINFO[0m[0001] ENTRYPOINT ["/go-demo-6"]                    
+[36mINFO[0m[0001] No files changed in this command, skipping snapshotting. 
+[36mINFO[0m[0001] COPY ./bin/ /                                
+[36mINFO[0m[0001] Found cached layer, extracting to filesystem 
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
 no CVE provider running in the current ** namespace so skip adding image to be analysed
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
 Converted /workspace/source/charts/go-demo-6 to an unshallow repository
-Generating change log from git ref b1e76bd3ab58bc5806f0e0707f68a253b26082f7 => 70b79fd864e9ea75b25708873796b9d94d7f772d
-Associating user x-0 in users.jenkins.io with email maju.ansari@landmarkgroup.in to git GitProvider user with login -0 as emails match
-Adding label jenkins.io/git-github-userid=-0 to user x-0 in users.jenkins.io
-WARNING: Failed to enrich commit 8263e482db4187496545efb28787006de74cfa03 with issues: User.jenkins.io "x-0" is invalid: metadata.labels: Invalid value: "-0": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')
-Associating user x-0 in users.jenkins.io with email maju.ansari@landmarkgroup.in to git GitProvider user with login -0 as emails match
-Adding label jenkins.io/git-github-userid=-0 to user x-0 in users.jenkins.io
-WARNING: Failed to enrich commit 8263e482db4187496545efb28787006de74cfa03 with issues: User.jenkins.io "x-0" is invalid: metadata.labels: Invalid value: "-0": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')
-Finding issues in commit messages using git format
-WARNING: No release found for **********/go-demo-6 and tag v2.0.26 so creating a new release
-Updated the release information at https://github.com/**********/go-demo-6/releases/tag/v2.0.26
+Generating change log from git ref 631408a87acef1e28b2536da5bbce40d07578bbf => f16dc64c819337b722093658d2310302fb87346f
+WARNING: No release found for **********/go-demo-6 and tag v2.0.31 so creating a new release
+Updated the release information at https://github.com/**********/go-demo-6/releases/tag/v2.0.31
 generated: /workspace/source/charts/go-demo-6/templates/release.yaml
-Created Release go-demo-6-2-0-26 resource in namespace **
-Updating PipelineActivity **********-go-demo-6-master-8 with version 2.0.26
-Updated PipelineActivities **********-go-demo-6-master-8 with release notes URL: https://github.com/**********/go-demo-6/releases/tag/v2.0.26
+Created Release go-demo-6-2-0-31 resource in namespace **
+Updating PipelineActivity **********-go-demo-6-master-8 with version 2.0.31
+Updated PipelineActivities **********-go-demo-6-master-8 with release notes URL: https://github.com/**********/go-demo-6/releases/tag/v2.0.31
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
 WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
 Adding missing Helm repo: storage.googleapis.com https://storage.googleapis.com/chartmuseum.jenkins-x.io
 Successfully added Helm repository storage.googleapis.com.
@@ -103,18 +96,20 @@ Adding missing Helm repo: jenkins-x-chartmuseum http://jenkins-x-chartmuseum:808
 Successfully added Helm repository jenkins-x-chartmuseum.
 WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
 WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
-Uploading chart file go-demo-6-2.0.26.tgz to http://jenkins-x-chartmuseum:8080/api/charts
+Uploading chart file go-demo-6-2.0.31.tgz to http://jenkins-x-chartmuseum:8080/api/charts
 Received 201 response: {"saved":true}
 
-Showing logs for build [32mmajuansari-go-demo-6-master-rel-xqrsl-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-jx-promote[0m
+Showing logs for build [32mmajuansari-go-demo-6-master-ktzf2-8[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-jx-promote[0m
 WARNING: prow based install so skip waiting for the merge of Pull Requests to go green as currently there is an issue with gettingstatuses from the PR, see https://github.com/jenkins-x/**/issues/2410
 WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
-Promoting app go-demo-6 version 2.0.26 to namespace **-staging
+Promoting app go-demo-6 version 2.0.31 to namespace **-staging
 WARNING: 
-Created Pull Request: https://github.com/**********/environment-**-aks-staging/pull/21
-Added label updatebot to Pull Request https://github.com/**********/environment-**-aks-staging/pull/21
-got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/21
-got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/21
-error: Pull request https://github.com/**********/environment-**-aks-staging/pull/21 last commit has status failure for ref d21aabcca25ef6650940f83713e25dd75e19959d
-[31m
-Pipeline failed on stage 'from-build-pack' : container 'step-promote-jx-promote'. The execution of the pipeline has stopped.[0m
+Created Pull Request: https://github.com/**********/environment-**-aks-staging/pull/26
+Added label updatebot to Pull Request https://github.com/**********/environment-**-aks-staging/pull/26
+got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/26
+got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/26
+got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/26
+got git provider status pending from PR https://github.com/**********/environment-**-aks-staging/pull/26
+Pull Request https://github.com/**********/environment-**-aks-staging/pull/26 is merged at sha d5e967026fd931dd5d302fefd84067f0b905fae5
+Pull Request merged but we are not waiting for the update pipeline to complete!
+WARNING: Could not find the service URL in namespace **-staging for names go-demo-6, **-go-demo-6, **-staging-go-demo-6
